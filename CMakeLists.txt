@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.18)
+project(Algorithms)
+
+set(CMAKE_CXX_STANDARD 20)
+
+add_executable(Counting_Sort counting_sort.cpp)
+add_executable(Fast_Exponentiation fast_exponentiation.cpp)
+add_executable(Insertion_Sort insertion_sort.cpp)
+add_executable(Ith_Smallest ith_smallest.cpp)
+add_executable(Merge_Sort merge_sort.cpp)
+add_executable(Primality_Test primality_test.cpp)
+add_executable(Power_Computation power_computation.cpp)
+add_executable(Radix_Sort radix_sort.cpp)
+add_executable(RSA rsa.cpp)
+add_executable(Quicksort quicksort.cpp)
