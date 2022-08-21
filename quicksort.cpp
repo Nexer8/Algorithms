@@ -5,7 +5,7 @@
 using namespace std;
 
 void printVector(const vector<int> &vec) {
-    for (const auto &element: vec) {
+    for (const auto &element : vec) {
         cout << element << '\t';
     }
     cout << endl;
